@@ -3,8 +3,11 @@
 
 # Goals:
 # * Disable production release (don't need it)
-# * Enable Pull Request / Merge deploy-preview context
-# * Disable branch-deploy context (by default)
+#   * Set the production branch (in UI) to "does-not-exist"
+# * Enable Pull Request / Merge deploy-preview context for branches
+# * Disable branch-deploy context (we use previews only)
+#   * Disable by default (using ignore)
+#   * Add "master" to the branch deploy list
 
 # Using ignore:
 # https://docs.netlify.com/configure-builds/file-based-configuration/#ignore-builds
