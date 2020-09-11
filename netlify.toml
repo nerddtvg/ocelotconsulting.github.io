@@ -1,6 +1,9 @@
 # https://docs.netlify.com/configure-builds/file-based-configuration/
 # This file will completely override the UI settings
 
+# NOTE: Deploy Previews are NOT automatically deleted when PRs are closed/merged
+# https://community.netlify.com/t/does-each-deploy-preview-stay-available-forever/12601/9
+
 # Goals:
 # * Disable production release (don't need it)
 #   * Set the production branch (in UI) to "does-not-exist"
